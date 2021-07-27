@@ -17,7 +17,7 @@ symfony console check:alive http://google.com -s=200
 symfony console check:alive http://google.com --title=Google
 symfony console check:alive http://google.com -t=Google
 
-#To check both site title against expected
+#To check both site title and status against expected
 symfony console check:alive http://google.com --title=Google --status=200
 symfony console check:alive http://google.com -t=Google -s=201
 ```
